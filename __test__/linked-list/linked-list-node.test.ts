@@ -1,4 +1,4 @@
-import {LinkedListNode} from '../../src/index'
+import {LinkedListNode} from '../../src'
 describe('LinkedListNode', () => {
 	let linkedListNumberNode: LinkedListNode<number>
 	let linkedListStringNode: LinkedListNode<string>

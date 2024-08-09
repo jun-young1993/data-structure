@@ -1,5 +1,7 @@
 /**
+ * 
  * Represents a node in a linked list
+ * 
  * @template T - The type of the value stored in the node
  * @example
  * ```typescript
@@ -39,6 +41,7 @@ class LinkedListNode<T>{
 	/**
 	 * Returns the value stored in the object.
 	 * 
+	 * @public
 	 * @returns {T} The value stored in the object
 	 * @example
 	 * ```typescript
@@ -58,6 +61,7 @@ class LinkedListNode<T>{
 	/**
 	 * Returns the next value stored in the object.
 	 * 
+	 * @public
 	 * @returns {(LinkedListNode<T> | null)} The next value stored in the object
 	 * @example
 	 * ```typescript
@@ -71,6 +75,35 @@ class LinkedListNode<T>{
 	 */
 	public getNext(): LinkedListNode<T> | null
 	{
+		return this.next
+	}
+
+	/**
+	 * 
+	 * @returns 
+	 */
+	public isNext(): boolean
+	{
+		return this.getNext() ? true : false
+	}
+
+	/**
+	 * 
+	 * The next value stored in the object
+	 * 
+	 * @param {LinkedListNode<T>} node 
+	 * @returns {(LinkedListNode<T>)} The next value stored in the object
+	 * @example
+	 * ```typescript
+	 * const newNode = new LinkedListNode<T>(1)
+	 * newNode.setNext(2)
+	 * 
+	 * newNode.getNext() // Outputs: 2
+	 * ```
+	 */
+	public setNext(node: LinkedListNode<T>): LinkedListNode<T>
+	{
+		this.next = node
 		return this.next
 	}
 
