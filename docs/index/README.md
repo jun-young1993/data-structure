@@ -1,8 +1,8 @@
-[**data-structure**](../README.md) • **Docs**
+[**node-data-structure**](../README.md) • **Docs**
 
 ***
 
-[data-structure](../modules.md) / index
+[node-data-structure](../modules.md) / index
 
 # index
 
@@ -10,4 +10,5 @@
 
 ### Classes
 
+- [LinkedList](classes/LinkedList.md)
 - [LinkedListNode](classes/LinkedListNode.md)

@@ -1,8 +1,8 @@
-[**data-structure**](../../README.md) • **Docs**
+[**node-data-structure**](../../README.md) • **Docs**
 
 ***
 
-[data-structure](../../modules.md) / [index](../README.md) / LinkedListNode
+[node-data-structure](../../modules.md) / [index](../README.md) / LinkedListNode
 
 # Class: LinkedListNode\<T\>
 
@@ -40,7 +40,39 @@ Creates an instance of a Node
 
 #### Defined in
 
-[linked-list/linked-list-node.ts:35](https://github.com/jun-young1993/data-structure/blob/eae160e9458303b4822c938483624a03a0697697/src/linked-list/linked-list-node.ts#L35)
+[linked-list/linked-list-node.ts:37](https://github.com/jun-young1993/data-structure/blob/8bc9ec3869d8d29bb057d7e9455cf0209885aa17/src/linked-list/linked-list-node.ts#L37)
+
+## Properties
+
+### next
+
+> **next**: `null` \| [`LinkedListNode`](LinkedListNode.md)\<`T`\> = `null`
+
+the reference to the next node in the linked list
+
+#### Memberof
+
+LinkedListNode
+
+#### Defined in
+
+[linked-list/linked-list-node.ts:30](https://github.com/jun-young1993/data-structure/blob/8bc9ec3869d8d29bb057d7e9455cf0209885aa17/src/linked-list/linked-list-node.ts#L30)
+
+***
+
+### value
+
+> **value**: `T`
+
+the value stored in the node
+
+#### Memberof
+
+LinkedListNode
+
+#### Defined in
+
+[linked-list/linked-list-node.ts:21](https://github.com/jun-young1993/data-structure/blob/8bc9ec3869d8d29bb057d7e9455cf0209885aa17/src/linked-list/linked-list-node.ts#L21)
 
 ## Methods
 
@@ -69,7 +101,7 @@ console.log(nextlinkedListNode) // null
 
 #### Defined in
 
-[linked-list/linked-list-node.ts:72](https://github.com/jun-young1993/data-structure/blob/eae160e9458303b4822c938483624a03a0697697/src/linked-list/linked-list-node.ts#L72)
+[linked-list/linked-list-node.ts:76](https://github.com/jun-young1993/data-structure/blob/8bc9ec3869d8d29bb057d7e9455cf0209885aa17/src/linked-list/linked-list-node.ts#L76)
 
 ***
 
@@ -98,4 +130,49 @@ console.log(value) // 1
 
 #### Defined in
 
-[linked-list/linked-list-node.ts:53](https://github.com/jun-young1993/data-structure/blob/eae160e9458303b4822c938483624a03a0697697/src/linked-list/linked-list-node.ts#L53)
+[linked-list/linked-list-node.ts:56](https://github.com/jun-young1993/data-structure/blob/8bc9ec3869d8d29bb057d7e9455cf0209885aa17/src/linked-list/linked-list-node.ts#L56)
+
+***
+
+### isNext()
+
+> **isNext**(): `boolean`
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[linked-list/linked-list-node.ts:85](https://github.com/jun-young1993/data-structure/blob/8bc9ec3869d8d29bb057d7e9455cf0209885aa17/src/linked-list/linked-list-node.ts#L85)
+
+***
+
+### setNext()
+
+> **setNext**(`node`): [`LinkedListNode`](LinkedListNode.md)\<`T`\>
+
+The next value stored in the object
+
+#### Parameters
+
+• **node**: [`LinkedListNode`](LinkedListNode.md)\<`T`\>
+
+#### Returns
+
+[`LinkedListNode`](LinkedListNode.md)\<`T`\>
+
+The next value stored in the object
+
+#### Example
+
+```typescript
+const newNode = new LinkedListNode<T>(1)
+newNode.setNext(2)
+
+newNode.getNext() // Outputs: 2
+```
+
+#### Defined in
+
+[linked-list/linked-list-node.ts:104](https://github.com/jun-young1993/data-structure/blob/8bc9ec3869d8d29bb057d7e9455cf0209885aa17/src/linked-list/linked-list-node.ts#L104)

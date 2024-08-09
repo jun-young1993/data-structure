@@ -1,8 +1,8 @@
-[**data-structure**](README.md) • **Docs**
+[**node-data-structure**](README.md) • **Docs**
 
 ***
 
-# data-structure
+# node-data-structure
 
 ## Modules
 
