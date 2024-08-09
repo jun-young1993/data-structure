@@ -44,7 +44,7 @@ class LinkedList<T> {
 	 * 
 	 * ```
 	 */
-	public append(value: T): LinkedList<T>
+	public append(value: T): void
 	{
 		const newNode = new LinkedListNode<T>(value)
 
@@ -53,12 +53,11 @@ class LinkedList<T> {
 		}else{
 			let current = this.head;
 			while(current.isNext()){
-				current = current.getNext() as LinkedListNode<T>
+				current = current.next as LinkedListNode<T>
 			}
 			current.setNext(newNode)
 		}
 		this.length++
-		return this
 	}
 
 	/**
@@ -89,10 +88,53 @@ class LinkedList<T> {
 
 		let current: LinkedListNode<T> = this.head
 		for(let i = 0; i < index; i++){
-			current = current.getNext() as LinkedListNode<T>;
+			current = current.next as LinkedListNode<T>;
 		}
 
 		return current.getValue()
+	}
+
+	/**
+	 * 
+	 * Removes the first occurrence of the specified value from the linked list.
+	 * 
+	 * @param {T} value The Value to remove from the list
+	 * @returns `true` if the value was found and removed, or `false` if the value was not found.
+	 * 
+	 * @example
+	 * ```typescript
+	 * const list = new LinkedList<number>();
+	 * list.append(10);
+	 * list.append(20);
+	 * list.append(30);
+	 * console.log(list.remove(20)); // Outputs: true
+	 * console.log(list.size()); // Outputs: 2
+	 * console.log(list.remove(40)); // Outputs: false
+	 * ```
+	 * 
+	 */
+	public remove(value: T): boolean
+	{
+		if(!this.head) return false
+
+		if(this.head.value === value){
+			this.head = this.head.next
+			this.length--
+			return true
+		}
+
+		let current = this.head
+		while(current.next && current.next.value !== value){
+			current = current.next
+		}
+
+		if(current.next){
+			current.next = current.next.next
+			this.length--
+			return true
+		}
+
+		return false
 	}
 
 }

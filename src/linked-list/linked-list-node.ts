@@ -14,20 +14,20 @@ class LinkedListNode<T>{
 	/**
 	 * the value stored in the node
 	 *
-	 * @private
+	 * @public
 	 * @type {T}
 	 * @memberof LinkedListNode
 	 */
-	private value: T;
+	public value: T;
 
 	/**
 	 * the reference to the next node in the linked list
 	 *
-	 * @private
+	 * @public
 	 * @type {(LinkedListNode<T> | null)}
 	 * @memberof LinkedListNode
 	 */
-	private next: LinkedListNode<T> | null = null;
+	public next: LinkedListNode<T> | null = null;
 
 	/**
 	 * Creates an instance of a Node
