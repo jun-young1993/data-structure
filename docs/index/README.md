@@ -12,3 +12,4 @@
 
 - [LinkedList](classes/LinkedList.md)
 - [LinkedListNode](classes/LinkedListNode.md)
+- [Queue](classes/Queue.md)

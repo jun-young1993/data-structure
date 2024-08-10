@@ -5,7 +5,7 @@ describe('LinkedList', () => {
 	
 
 	beforeEach(() => {
-		linkedList = new LinkedList();
+		linkedList = new LinkedList()
 	})
 
 	test('should start empty', () => {

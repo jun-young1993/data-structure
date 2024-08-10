@@ -61,7 +61,7 @@ console.log(linkedList.size())// Outputs: 3
 
 #### Defined in
 
-[linked-list/linked-list.ts:47](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L47)
+[linked-list/linked-list.ts:47](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L47)
 
 ***
 
@@ -98,7 +98,7 @@ console.log(list.get(5)); // Outputs: null
 
 #### Defined in
 
-[linked-list/linked-list.ts:80](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L80)
+[linked-list/linked-list.ts:80](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L80)
 
 ***
 
@@ -125,7 +125,7 @@ console.log(list.isEmpty()); // Outputs: false
 
 #### Defined in
 
-[linked-list/linked-list.ts:170](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L170)
+[linked-list/linked-list.ts:170](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L170)
 
 ***
 
@@ -161,7 +161,7 @@ console.log(list.remove(40)); // Outputs: false
 
 #### Defined in
 
-[linked-list/linked-list.ts:116](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L116)
+[linked-list/linked-list.ts:116](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L116)
 
 ***
 
@@ -188,7 +188,7 @@ console.log(list.size()); // Outputs: 1
 
 #### Defined in
 
-[linked-list/linked-list.ts:153](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L153)
+[linked-list/linked-list.ts:153](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L153)
 
 ***
 
@@ -216,4 +216,4 @@ console.log(list.toArray()); // 출력 결과: [10, 20, 30]
 
 #### Defined in
 
-[linked-list/linked-list.ts:189](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L189)
+[linked-list/linked-list.ts:189](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L189)

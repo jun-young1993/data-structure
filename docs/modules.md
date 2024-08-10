@@ -8,3 +8,4 @@
 
 - [index](index/README.md)
 - [linked-list](linked-list/README.md)
+- [queue](queue/README.md)
