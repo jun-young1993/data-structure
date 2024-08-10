@@ -99,7 +99,7 @@ class LinkedList<T> {
 	 * Removes the first occurrence of the specified value from the linked list.
 	 * 
 	 * @param {T} value The Value to remove from the list
-	 * @returns `true` if the value was found and removed, or `false` if the value was not found.
+	 * @returns {boolean} `true` if the value was found and removed, or `false` if the value was not found.
 	 * 
 	 * @example
 	 * ```typescript
@@ -135,6 +135,66 @@ class LinkedList<T> {
 		}
 
 		return false
+	}
+
+	/**
+	 *
+	 * Gets The number of elements in the linked list.
+	 *
+	 * @return {number} - The number of elements in the list
+	 * @example
+	 * ```typescript
+	 * const list = new LinkedList<number>();
+	 * console.log(list.size()); // Outputs: 0
+	 * list.append(10);
+	 * console.log(list.size()); // Outputs: 1
+	 * ```
+	 */
+	public size(): number
+	{
+		return this.length
+	}
+
+	/**
+	 * Determines whether the linked list is empty
+	 *
+	 * @return {boolean} `true` if the list is empty, or `false` if it contains any elements.
+	 * @example
+	 * ```typescript
+	 * const list = new LinkedList<number>();
+	 * console.log(list.isEmpty()); // Outputs: true
+	 * list.append(10);
+	 * console.log(list.isEmpty()); // Outputs: false
+	 * ```
+	 */
+	public isEmpty(): boolean
+	{
+		return this.length === 0;
+	}
+
+	/**
+	 *
+	 * Converts the linked list to an array of its elements
+	 *
+	 * @returns {T[]} An array containing all elements in the linked list, in order.
+	 * @example
+	 * ```typescript
+	 * const list = new LinkedList<number>();
+	 * list.append(10);
+	 * list.append(20);
+	 * list.append(30);
+	 * console.log(list.toArray()); // 출력 결과: [10, 20, 30]
+	 * ```
+	 */
+	public toArray(): T[]
+	{
+		const result: T[] = []
+		let current = this.head
+		while(current){
+			result.push(current.value)
+			current = current.next
+		}
+		return result
 	}
 
 }

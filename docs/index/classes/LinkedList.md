@@ -61,7 +61,7 @@ console.log(linkedList.size())// Outputs: 3
 
 #### Defined in
 
-[linked-list/linked-list.ts:47](https://github.com/jun-young1993/data-structure/blob/8bc9ec3869d8d29bb057d7e9455cf0209885aa17/src/linked-list/linked-list.ts#L47)
+[linked-list/linked-list.ts:47](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L47)
 
 ***
 
@@ -98,7 +98,34 @@ console.log(list.get(5)); // Outputs: null
 
 #### Defined in
 
-[linked-list/linked-list.ts:80](https://github.com/jun-young1993/data-structure/blob/8bc9ec3869d8d29bb057d7e9455cf0209885aa17/src/linked-list/linked-list.ts#L80)
+[linked-list/linked-list.ts:80](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L80)
+
+***
+
+### isEmpty()
+
+> **isEmpty**(): `boolean`
+
+Determines whether the linked list is empty
+
+#### Returns
+
+`boolean`
+
+`true` if the list is empty, or `false` if it contains any elements.
+
+#### Example
+
+```typescript
+const list = new LinkedList<number>();
+console.log(list.isEmpty()); // Outputs: true
+list.append(10);
+console.log(list.isEmpty()); // Outputs: false
+```
+
+#### Defined in
+
+[linked-list/linked-list.ts:170](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L170)
 
 ***
 
@@ -134,4 +161,59 @@ console.log(list.remove(40)); // Outputs: false
 
 #### Defined in
 
-[linked-list/linked-list.ts:116](https://github.com/jun-young1993/data-structure/blob/8bc9ec3869d8d29bb057d7e9455cf0209885aa17/src/linked-list/linked-list.ts#L116)
+[linked-list/linked-list.ts:116](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L116)
+
+***
+
+### size()
+
+> **size**(): `number`
+
+Gets The number of elements in the linked list.
+
+#### Returns
+
+`number`
+
+- The number of elements in the list
+
+#### Example
+
+```typescript
+const list = new LinkedList<number>();
+console.log(list.size()); // Outputs: 0
+list.append(10);
+console.log(list.size()); // Outputs: 1
+```
+
+#### Defined in
+
+[linked-list/linked-list.ts:153](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L153)
+
+***
+
+### toArray()
+
+> **toArray**(): `T`[]
+
+Converts the linked list to an array of its elements
+
+#### Returns
+
+`T`[]
+
+An array containing all elements in the linked list, in order.
+
+#### Example
+
+```typescript
+const list = new LinkedList<number>();
+list.append(10);
+list.append(20);
+list.append(30);
+console.log(list.toArray()); // 출력 결과: [10, 20, 30]
+```
+
+#### Defined in
+
+[linked-list/linked-list.ts:189](https://github.com/jun-young1993/data-structure/blob/d4d957ab8dd9a436c592f7afc4731c594de17b80/src/linked-list/linked-list.ts#L189)
