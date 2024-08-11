@@ -197,5 +197,24 @@ class LinkedList<T> {
 		return result
 	}
 
+	/**
+	 * Initialized the linked list
+	 *
+	 * @example
+	 * ```typescript
+	 * const list = new LinkedList<number>();
+	 * list.append(10)
+	 * list.append(20)
+	 * list.clear()
+	 * console.log(list.size()) // Outputs: 0
+	 * console.log(list.isEmpty()) // Outputs: true
+	 * ```
+	 */
+	public clear(): void
+	{
+		this.head = null
+		this.length = 0
+	}
+
 }
 export default LinkedList;

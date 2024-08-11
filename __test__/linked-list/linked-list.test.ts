@@ -95,5 +95,15 @@ describe('LinkedList', () => {
 		expect(linkedList.get(3)).toBe(null)
 	})
 
+	test("should initialize the linked list",() => {
+		linkedList.append(10)
+		linkedList.append(20)
+		expect(linkedList.size()).toBe(2)
+		expect(linkedList.isEmpty()).toBe(false)
+		linkedList.clear()
+		expect(linkedList.size()).toBe(0)
+		expect(linkedList.isEmpty()).toBe(true)
+	})
+
 
 })
