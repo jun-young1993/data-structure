@@ -1,4 +1,5 @@
 import { LinkedList } from "../../src";
+import {link} from "typedoc-plugin-markdown/dist/libs/markdown";
 
 describe('LinkedList', () => {
 	let linkedList: LinkedList<number>
@@ -19,6 +20,22 @@ describe('LinkedList', () => {
 		expect(linkedList.size()).toBe(2)
 		expect(linkedList.get(0)).toBe(10)
 		expect(linkedList.get(1)).toBe(20)
+		linkedList.prepend(30)
+		expect(linkedList.get(0)).toBe(30)
+		expect(linkedList.get(1)).toBe(10)
+		expect(linkedList.get(2)).toBe(20)
+	})
+
+	test('should prepend items to the list', () => {
+		linkedList.prepend(10)
+		linkedList.prepend(20)
+		expect(linkedList.size()).toBe(2)
+		expect(linkedList.get(0)).toBe(20)
+		expect(linkedList.get(1)).toBe(10)
+		linkedList.append(30)
+		expect(linkedList.get(0)).toBe(20)
+		expect(linkedList.get(1)).toBe(10)
+		expect(linkedList.get(2)).toBe(30)
 	})
 
 	test("should return `null` or `RangeError` for invalid index",() => {

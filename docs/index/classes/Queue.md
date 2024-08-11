@@ -40,7 +40,7 @@ This method clears the queue, removing all elements and resetting its size to ze
 
 #### Defined in
 
-[queue/queue.ts:124](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/queue/queue.ts#L124)
+[queue/queue.ts:125](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/queue/queue.ts#L125)
 
 ***
 
@@ -69,7 +69,7 @@ console.log(queue.dequeue()) // Outputs: null
 
 #### Defined in
 
-[queue/queue.ts:54](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/queue/queue.ts#L54)
+[queue/queue.ts:55](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/queue/queue.ts#L55)
 
 ***
 
@@ -98,7 +98,7 @@ console.log(queue.size()) // Outputs: 2
 
 #### Defined in
 
-[queue/queue.ts:31](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/queue/queue.ts#L31)
+[queue/queue.ts:32](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/queue/queue.ts#L32)
 
 ***
 
@@ -124,7 +124,7 @@ console.log(queue.isEmpty()); // Outputs: false
 
 #### Defined in
 
-[queue/queue.ts:96](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/queue/queue.ts#L96)
+[queue/queue.ts:97](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/queue/queue.ts#L97)
 
 ***
 
@@ -150,7 +150,7 @@ console.log(queue.size()); // Outputs: 2
 
 #### Defined in
 
-[queue/queue.ts:79](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/queue/queue.ts#L79)
+[queue/queue.ts:80](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/queue/queue.ts#L80)
 
 ***
 
@@ -177,4 +177,4 @@ console.log(queue.size()); // Outputs: 2
 
 #### Defined in
 
-[queue/queue.ts:114](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/queue/queue.ts#L114)
+[queue/queue.ts:115](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/queue/queue.ts#L115)

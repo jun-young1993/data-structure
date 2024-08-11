@@ -13,3 +13,8 @@
 - [LinkedList](classes/LinkedList.md)
 - [LinkedListNode](classes/LinkedListNode.md)
 - [Queue](classes/Queue.md)
+- [Stack](classes/Stack.md)
+
+### Interfaces
+
+- [StackInterface](interfaces/StackInterface.md)

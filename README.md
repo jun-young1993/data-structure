@@ -4,8 +4,14 @@
 
 # [TEST CODE](https://github.com/jun-young1993/data-structure/tree/main/__test__)
 
+# Features
+- [x] Linked List
+- [x] Stack
+- [x] Queue
+
+
 # Versions
-## v1.4.2
+## v1.4.4
 ### Added
 - Stack
 ---

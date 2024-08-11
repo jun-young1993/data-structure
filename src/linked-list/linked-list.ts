@@ -39,6 +39,9 @@ class LinkedList<T> {
 	 * linkedList.append(10)
 	 * linkedList.append(20)
 	 * linkedList.append(30)
+	 * linkedList.get(0) // Outputs: 10
+	 * linkedList.get(1) // Outputs: 20
+	 * linkedList.get(2) // Outputs: 30
 	 * 
 	 * console.log(linkedList.size())// Outputs: 3
 	 * 
@@ -56,6 +59,46 @@ class LinkedList<T> {
 				current = current.next as LinkedListNode<T>
 			}
 			current.setNext(newNode)
+		}
+		this.length++
+	}
+
+	/**
+	 *
+	 * Prepends a new element to the end of the linked list.
+	 *
+	 * @remarks
+	 * The time complexity of this operation is O(n), where n is the number of nodes in list, as the method may need to traverse the entire list to find and remove the node.
+	 *
+	 * @public
+	 * @param {T} value - The value to be added to the linked list.
+	 * @returns {LinkedList<T>} The linked list instance with the new value appended.
+	 *
+	 * @example
+	 * ```typescript
+	 * const linkedList = new LinkedList<number>();
+	 *
+	 * console.log(linkedList.size())// Outputs: 0
+	 *
+	 * linkedList.prepend(10)
+	 * linkedList.prepend(20)
+	 * linkedList.prepend(30)
+	 * linkedList.get(0) // Outputs: 30
+	 * linkedList.get(1) // Outputs: 20
+	 * linkedList.get(2) // Outputs: 10
+	 * console.log(linkedList.size())// Outputs: 3
+	 *
+	 * ```
+	 */
+	public prepend(value: T): void
+	{
+		const newNode = new LinkedListNode<T>(value)
+		if(!this.head){
+			this.head = newNode
+		}else{
+			const currentHead = this.head
+			newNode.next = currentHead
+			this.head = newNode
 		}
 		this.length++
 	}

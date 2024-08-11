@@ -17,19 +17,77 @@ class Stack<T> implements StackInterface<T>{
      */
     private list: LinkedList<T> = new LinkedList<T>()
 
+    /**
+     * Removes all elements from the stack.
+     *
+     * This method clears the stack, resetting its size to zero
+     * @example
+     * ```typescript
+     * const stack = new Stack<number>()
+     * stack.push(10)
+     * stack.push(20)
+     * console.log(stack.size()) // Outputs: 2
+     * stack.clear()
+     * console.log(stack.size()) // Outputs: 0
+     * ```
+     */
     public clear(): void {
+        this.list.clear()
     }
 
+    /**
+     * Checks whether the queue is empty
+     *
+     * @public
+     * @return {boolean} `true` if the queue is empty, or `false` if it contains elements.
+     * @example
+     * ```typescript
+     * const stack = new Stack<number>()
+     * console.log(stack.isEmpty()) // Outputs: true
+     * stack.push(10)
+     * stack.push(20)
+     * console.log(stack.isEmpty()) // Outputs: false
+     * stack.clear()
+     * console.log(stack.isEmpty()) // Outputs: true
+     * ```
+     */
     public isEmpty(): boolean {
-        return false;
+        return this.list.isEmpty();
     }
 
+    /**
+     * Returns the top element of the stack without removing it.
+     * @return {T | null} The element at the top of the stack, or `null` if the stack is empty.
+     * @example
+     * ```typescript
+     * const stack = new LinkedListStack<number>();
+     * stack.push(10);
+     * stack.push(20);
+     * console.log(stack.peek()); // Outputs: 20
+     * ```
+     */
     public peek(): T | null {
-        return null;
+        return this.list.get(0)
     }
 
+    /**
+     * Removes and returns the top element of the stack.
+     *
+     * @return {T | null} The element removed from the top of the stack, or null if the stack is empty
+     * @example
+     * ```typescript
+     * const stack = new LinkedListStack<number>();
+     * stack.push(10);
+     * console.log(stack.pop()); // Outputs: 10
+     * console.log(stack.pop()); // Outputs: undefined
+     * ```
+     */
     public pop(): T | null {
-        return null;
+        const top = this.peek()
+        if(top){
+            this.list.remove(top)
+        }
+        return top;
     }
 
     /**
@@ -39,11 +97,26 @@ class Stack<T> implements StackInterface<T>{
      *
      */
     public push(item: T): void {
-        this.list.append(item)
+        this.list.prepend(item)
     }
 
+    /**
+     * Returns the number of elements in the stack.
+     *
+     * @public
+     * @return {number} The number of elements in the stack.
+     * @example
+     * ```typescript
+     * const stack = new Queue<number>()
+     * stack.push(10)
+     * stack.push(20)
+     * console.log(stack.size()) // Outputs: 2
+     * ```
+     */
     public size(): number {
-        return 0;
+        return this.list.size();
     }
 
 }
+
+export default Stack

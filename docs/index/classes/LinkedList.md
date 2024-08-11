@@ -54,6 +54,9 @@ console.log(linkedList.size())// Outputs: 0
 linkedList.append(10)
 linkedList.append(20)
 linkedList.append(30)
+linkedList.get(0) // Outputs: 10
+linkedList.get(1) // Outputs: 20
+linkedList.get(2) // Outputs: 30
 
 console.log(linkedList.size())// Outputs: 3
 
@@ -61,7 +64,34 @@ console.log(linkedList.size())// Outputs: 3
 
 #### Defined in
 
-[linked-list/linked-list.ts:47](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L47)
+[linked-list/linked-list.ts:50](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L50)
+
+***
+
+### clear()
+
+> **clear**(): `void`
+
+Initialized the linked list
+
+#### Returns
+
+`void`
+
+#### Example
+
+```typescript
+const list = new LinkedList<number>();
+list.append(10)
+list.append(20)
+list.clear()
+console.log(list.size()) // Outputs: 0
+console.log(list.isEmpty()) // Outputs: true
+```
+
+#### Defined in
+
+[linked-list/linked-list.ts:256](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L256)
 
 ***
 
@@ -98,7 +128,7 @@ console.log(list.get(5)); // Outputs: null
 
 #### Defined in
 
-[linked-list/linked-list.ts:80](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L80)
+[linked-list/linked-list.ts:123](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L123)
 
 ***
 
@@ -125,7 +155,52 @@ console.log(list.isEmpty()); // Outputs: false
 
 #### Defined in
 
-[linked-list/linked-list.ts:170](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L170)
+[linked-list/linked-list.ts:213](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L213)
+
+***
+
+### prepend()
+
+> **prepend**(`value`): `void`
+
+Prepends a new element to the end of the linked list.
+
+#### Parameters
+
+• **value**: `T`
+
+The value to be added to the linked list.
+
+#### Returns
+
+`void`
+
+The linked list instance with the new value appended.
+
+#### Remarks
+
+The time complexity of this operation is O(n), where n is the number of nodes in list, as the method may need to traverse the entire list to find and remove the node.
+
+#### Example
+
+```typescript
+const linkedList = new LinkedList<number>();
+
+console.log(linkedList.size())// Outputs: 0
+
+linkedList.prepend(10)
+linkedList.prepend(20)
+linkedList.prepend(30)
+linkedList.get(0) // Outputs: 30
+linkedList.get(1) // Outputs: 20
+linkedList.get(2) // Outputs: 10
+console.log(linkedList.size())// Outputs: 3
+
+```
+
+#### Defined in
+
+[linked-list/linked-list.ts:93](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L93)
 
 ***
 
@@ -161,7 +236,7 @@ console.log(list.remove(40)); // Outputs: false
 
 #### Defined in
 
-[linked-list/linked-list.ts:116](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L116)
+[linked-list/linked-list.ts:159](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L159)
 
 ***
 
@@ -188,7 +263,7 @@ console.log(list.size()); // Outputs: 1
 
 #### Defined in
 
-[linked-list/linked-list.ts:153](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L153)
+[linked-list/linked-list.ts:196](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L196)
 
 ***
 
@@ -216,4 +291,4 @@ console.log(list.toArray()); // 출력 결과: [10, 20, 30]
 
 #### Defined in
 
-[linked-list/linked-list.ts:189](https://github.com/jun-young1993/data-structure/blob/f205746ccba10f87d4e164e6b0f91a626191a53c/src/linked-list/linked-list.ts#L189)
+[linked-list/linked-list.ts:232](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L232)
