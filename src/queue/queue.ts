@@ -14,6 +14,7 @@ class Queue<T> {
      */
     private list: LinkedList<T> = new LinkedList<T>()
 
+
     /**
      * Enqueue a new element at the end of the queue
      *
@@ -123,9 +124,7 @@ class Queue<T> {
      */
     public clear(): void
     {
-        while(!this.isEmpty()){
-            this.dequeue()
-        }
+        this.list = new LinkedList<T>()
     }
 }
 
