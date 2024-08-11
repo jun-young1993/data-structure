@@ -124,7 +124,8 @@ class Queue<T> {
      */
     public clear(): void
     {
-        this.list = new LinkedList<T>()
+        this.list.clear()
+
     }
 }
 

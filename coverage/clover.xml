@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1723356339231" clover="3.2.0">
-  <project timestamp="1723356339231" name="All files">
+<coverage generated="1723356702445" clover="3.2.0">
+  <project timestamp="1723356702445" name="All files">
     <metrics statements="68" coveredstatements="67" conditionals="14" coveredconditionals="13" methods="21" coveredmethods="21" elements="103" coveredelements="101" complexity="0" loc="68" ncloc="68" packages="3" files="6" classes="6"/>
     <package name="src">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -15,7 +15,7 @@
       <file name="index.ts" path="/Users/junyoungkim/Desktop/junyoung/app/source/data-structure/src/linked-list/index.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="9" type="stmt"/>
-        <line num="2" count="22" type="stmt"/>
+        <line num="2" count="21" type="stmt"/>
       </file>
       <file name="linked-list-node.ts" path="/Users/junyoungkim/Desktop/junyoung/app/source/data-structure/src/linked-list/linked-list-node.ts">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
@@ -31,8 +31,8 @@
       <file name="linked-list.ts" path="/Users/junyoungkim/Desktop/junyoung/app/source/data-structure/src/linked-list/linked-list.ts">
         <metrics statements="43" coveredstatements="42" conditionals="11" coveredconditionals="10" methods="7" coveredmethods="7"/>
         <line num="1" count="3" type="stmt"/>
-        <line num="11" count="19" type="stmt"/>
-        <line num="20" count="19" type="stmt"/>
+        <line num="11" count="18" type="stmt"/>
+        <line num="20" count="18" type="stmt"/>
         <line num="49" count="33" type="stmt"/>
         <line num="51" count="33" type="cond" truecount="2" falsecount="0"/>
         <line num="52" count="16" type="stmt"/>
@@ -70,8 +70,8 @@
         <line num="194" count="11" type="stmt"/>
         <line num="195" count="11" type="stmt"/>
         <line num="197" count="5" type="stmt"/>
-        <line num="215" count="1" type="stmt"/>
-        <line num="216" count="1" type="stmt"/>
+        <line num="215" count="2" type="stmt"/>
+        <line num="216" count="2" type="stmt"/>
         <line num="220" count="3" type="stmt"/>
       </file>
     </package>
@@ -94,7 +94,7 @@
         <line num="99" count="4" type="stmt"/>
         <line num="117" count="7" type="stmt"/>
         <line num="127" count="1" type="stmt"/>
-        <line num="131" count="3" type="stmt"/>
+        <line num="132" count="3" type="stmt"/>
       </file>
     </package>
   </project>
