@@ -64,7 +64,7 @@ console.log(linkedList.size())// Outputs: 3
 
 #### Defined in
 
-[linked-list/linked-list.ts:50](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L50)
+[linked-list/linked-list.ts:50](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L50)
 
 ***
 
@@ -91,7 +91,7 @@ console.log(list.isEmpty()) // Outputs: true
 
 #### Defined in
 
-[linked-list/linked-list.ts:256](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L256)
+[linked-list/linked-list.ts:256](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L256)
 
 ***
 
@@ -128,7 +128,7 @@ console.log(list.get(5)); // Outputs: null
 
 #### Defined in
 
-[linked-list/linked-list.ts:123](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L123)
+[linked-list/linked-list.ts:123](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L123)
 
 ***
 
@@ -155,7 +155,7 @@ console.log(list.isEmpty()); // Outputs: false
 
 #### Defined in
 
-[linked-list/linked-list.ts:213](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L213)
+[linked-list/linked-list.ts:213](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L213)
 
 ***
 
@@ -200,7 +200,7 @@ console.log(linkedList.size())// Outputs: 3
 
 #### Defined in
 
-[linked-list/linked-list.ts:93](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L93)
+[linked-list/linked-list.ts:93](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L93)
 
 ***
 
@@ -236,7 +236,7 @@ console.log(list.remove(40)); // Outputs: false
 
 #### Defined in
 
-[linked-list/linked-list.ts:159](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L159)
+[linked-list/linked-list.ts:159](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L159)
 
 ***
 
@@ -263,7 +263,7 @@ console.log(list.size()); // Outputs: 1
 
 #### Defined in
 
-[linked-list/linked-list.ts:196](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L196)
+[linked-list/linked-list.ts:196](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L196)
 
 ***
 
@@ -291,4 +291,4 @@ console.log(list.toArray()); // 출력 결과: [10, 20, 30]
 
 #### Defined in
 
-[linked-list/linked-list.ts:232](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/linked-list/linked-list.ts#L232)
+[linked-list/linked-list.ts:232](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L232)

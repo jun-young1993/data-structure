@@ -61,7 +61,7 @@ console.log(stack.size()) // Outputs: 0
 
 #### Defined in
 
-[stack/stack.ts:34](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/stack/stack.ts#L34)
+[stack/stack.ts:34](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/stack/stack.ts#L34)
 
 ***
 
@@ -95,7 +95,7 @@ console.log(stack.isEmpty()) // Outputs: true
 
 #### Defined in
 
-[stack/stack.ts:54](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/stack/stack.ts#L54)
+[stack/stack.ts:54](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/stack/stack.ts#L54)
 
 ***
 
@@ -126,7 +126,7 @@ console.log(stack.peek()); // Outputs: 20
 
 #### Defined in
 
-[stack/stack.ts:69](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/stack/stack.ts#L69)
+[stack/stack.ts:69](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/stack/stack.ts#L69)
 
 ***
 
@@ -157,7 +157,7 @@ console.log(stack.pop()); // Outputs: undefined
 
 #### Defined in
 
-[stack/stack.ts:85](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/stack/stack.ts#L85)
+[stack/stack.ts:85](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/stack/stack.ts#L85)
 
 ***
 
@@ -183,7 +183,7 @@ The element to push onto the stack
 
 #### Defined in
 
-[stack/stack.ts:99](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/stack/stack.ts#L99)
+[stack/stack.ts:99](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/stack/stack.ts#L99)
 
 ***
 
@@ -214,4 +214,4 @@ console.log(stack.size()) // Outputs: 2
 
 #### Defined in
 
-[stack/stack.ts:116](https://github.com/jun-young1993/data-structure/blob/276ce301b6b22895bf39d539978e42753cf9c1b4/src/stack/stack.ts#L116)
+[stack/stack.ts:116](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/stack/stack.ts#L116)
