@@ -51,6 +51,8 @@ describe('LinkedList', () => {
 		expect(linkedList.remove(10)).toBe(true)
 		expect(linkedList.size()).toBe(2)
 		expect(linkedList.get(0)).toBe(20)
+		expect(linkedList.get(1)).toBe(30)
+		expect(linkedList.get(2)).toBe(null)
 	})
 
 	test("should return false when removing non-existent item", () => {
@@ -92,4 +94,6 @@ describe('LinkedList', () => {
 		expect(linkedList.get(2)).toBe(30)
 		expect(linkedList.get(3)).toBe(null)
 	})
+
+
 })
