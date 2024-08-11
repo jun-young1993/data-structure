@@ -1,6 +1,6 @@
 # data-structure
 
-# [BLOG DOCS](https://nextjs-github-blog.vercel.app/repository-markdown-viewer/data-structure/docs/index/README.md) Or [GithubDocs](https://github.com/jun-young1993/data-structure/tree/main/docs)
+# [BLOG DOCS](https://juny.blog/repository-markdown-viewer/data-structure/docs/index/README.md) Or [GithubDocs](https://github.com/jun-young1993/data-structure/tree/main/docs)
 
 # [TEST CODE](https://github.com/jun-young1993/data-structure/tree/main/__test__)
 
