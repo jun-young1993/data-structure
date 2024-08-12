@@ -1,6 +1,7 @@
 import LinkedListNode from "./linked-list-node";
+import { LinkedListInterface } from "./linked-list.interface";
 
-class LinkedList<T> {
+class LinkedList<T> implements LinkedListInterface<T>{
 	/**
 	 * The first node in the linked list, or null if the list is empty
 	 *

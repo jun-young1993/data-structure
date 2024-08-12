@@ -1,3 +1,5 @@
+import { LinkedListNodeInterface } from "./linked-list.interface";
+
 /**
  * 
  * Represents a node in a linked list
@@ -10,7 +12,7 @@
  * 	
  * ```
  */
-class LinkedListNode<T>{
+class LinkedListNode<T> implements LinkedListNodeInterface<T>{
 	/**
 	 * the value stored in the node
 	 *
@@ -18,7 +20,7 @@ class LinkedListNode<T>{
 	 * @type {T}
 	 * @memberof LinkedListNode
 	 */
-	public value: T;
+	public value: T
 
 	/**
 	 * the reference to the next node in the linked list
