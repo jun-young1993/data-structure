@@ -10,6 +10,8 @@
 
 ### Classes
 
+- [DoublyLinkedList](classes/DoublyLinkedList.md)
+- [DoublyLinkedListNode](classes/DoublyLinkedListNode.md)
 - [LinkedList](classes/LinkedList.md)
 - [LinkedListNode](classes/LinkedListNode.md)
 - [Queue](classes/Queue.md)

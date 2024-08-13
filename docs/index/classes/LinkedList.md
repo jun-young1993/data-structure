@@ -10,6 +10,10 @@
 
 • **T**
 
+## Implements
+
+- `LinkedListInterface`\<`T`\>
+
 ## Constructors
 
 ### new LinkedList()
@@ -62,9 +66,13 @@ console.log(linkedList.size())// Outputs: 3
 
 ```
 
+#### Implementation of
+
+`LinkedListInterface.append`
+
 #### Defined in
 
-[linked-list/linked-list.ts:50](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L50)
+[linked-list/linked-list.ts:61](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list.ts#L61)
 
 ***
 
@@ -89,9 +97,13 @@ console.log(list.size()) // Outputs: 0
 console.log(list.isEmpty()) // Outputs: true
 ```
 
+#### Implementation of
+
+`LinkedListInterface.clear`
+
 #### Defined in
 
-[linked-list/linked-list.ts:256](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L256)
+[linked-list/linked-list.ts:267](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list.ts#L267)
 
 ***
 
@@ -128,7 +140,25 @@ console.log(list.get(5)); // Outputs: null
 
 #### Defined in
 
-[linked-list/linked-list.ts:123](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L123)
+[linked-list/linked-list.ts:134](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list.ts#L134)
+
+***
+
+### getHead()
+
+> **getHead**(): `null` \| [`LinkedListNode`](LinkedListNode.md)\<`T`\>
+
+The head of the linked list
+
+#### Returns
+
+`null` \| [`LinkedListNode`](LinkedListNode.md)\<`T`\>
+
+The head of the linked list
+
+#### Defined in
+
+[linked-list/linked-list.ts:28](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list.ts#L28)
 
 ***
 
@@ -153,9 +183,13 @@ list.append(10);
 console.log(list.isEmpty()); // Outputs: false
 ```
 
+#### Implementation of
+
+`LinkedListInterface.isEmpty`
+
 #### Defined in
 
-[linked-list/linked-list.ts:213](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L213)
+[linked-list/linked-list.ts:224](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list.ts#L224)
 
 ***
 
@@ -198,9 +232,13 @@ console.log(linkedList.size())// Outputs: 3
 
 ```
 
+#### Implementation of
+
+`LinkedListInterface.prepend`
+
 #### Defined in
 
-[linked-list/linked-list.ts:93](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L93)
+[linked-list/linked-list.ts:104](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list.ts#L104)
 
 ***
 
@@ -234,9 +272,13 @@ console.log(list.size()); // Outputs: 2
 console.log(list.remove(40)); // Outputs: false
 ```
 
+#### Implementation of
+
+`LinkedListInterface.remove`
+
 #### Defined in
 
-[linked-list/linked-list.ts:159](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L159)
+[linked-list/linked-list.ts:170](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list.ts#L170)
 
 ***
 
@@ -261,9 +303,13 @@ list.append(10);
 console.log(list.size()); // Outputs: 1
 ```
 
+#### Implementation of
+
+`LinkedListInterface.size`
+
 #### Defined in
 
-[linked-list/linked-list.ts:196](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L196)
+[linked-list/linked-list.ts:207](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list.ts#L207)
 
 ***
 
@@ -289,6 +335,10 @@ list.append(30);
 console.log(list.toArray()); // 출력 결과: [10, 20, 30]
 ```
 
+#### Implementation of
+
+`LinkedListInterface.toArray`
+
 #### Defined in
 
-[linked-list/linked-list.ts:232](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list.ts#L232)
+[linked-list/linked-list.ts:243](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list.ts#L243)

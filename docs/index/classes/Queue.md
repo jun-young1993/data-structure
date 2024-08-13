@@ -40,7 +40,7 @@ This method clears the queue, removing all elements and resetting its size to ze
 
 #### Defined in
 
-[queue/queue.ts:125](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/queue/queue.ts#L125)
+[queue/queue.ts:133](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/queue/queue.ts#L133)
 
 ***
 
@@ -69,7 +69,7 @@ console.log(queue.dequeue()) // Outputs: null
 
 #### Defined in
 
-[queue/queue.ts:55](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/queue/queue.ts#L55)
+[queue/queue.ts:63](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/queue/queue.ts#L63)
 
 ***
 
@@ -98,7 +98,21 @@ console.log(queue.size()) // Outputs: 2
 
 #### Defined in
 
-[queue/queue.ts:32](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/queue/queue.ts#L32)
+[queue/queue.ts:40](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/queue/queue.ts#L40)
+
+***
+
+### getList()
+
+> **getList**(): [`LinkedList`](LinkedList.md)\<`T`\>
+
+#### Returns
+
+[`LinkedList`](LinkedList.md)\<`T`\>
+
+#### Defined in
+
+[queue/queue.ts:21](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/queue/queue.ts#L21)
 
 ***
 
@@ -124,7 +138,7 @@ console.log(queue.isEmpty()); // Outputs: false
 
 #### Defined in
 
-[queue/queue.ts:97](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/queue/queue.ts#L97)
+[queue/queue.ts:105](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/queue/queue.ts#L105)
 
 ***
 
@@ -150,7 +164,7 @@ console.log(queue.size()); // Outputs: 2
 
 #### Defined in
 
-[queue/queue.ts:80](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/queue/queue.ts#L80)
+[queue/queue.ts:88](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/queue/queue.ts#L88)
 
 ***
 
@@ -177,4 +191,4 @@ console.log(queue.size()); // Outputs: 2
 
 #### Defined in
 
-[queue/queue.ts:115](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/queue/queue.ts#L115)
+[queue/queue.ts:123](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/queue/queue.ts#L123)

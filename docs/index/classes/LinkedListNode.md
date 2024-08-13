@@ -22,6 +22,10 @@ Represents a node in a linked list
 
 The type of the value stored in the node
 
+## Implements
+
+- `LinkedListNodeInterface`\<`T`\>
+
 ## Constructors
 
 ### new LinkedListNode()
@@ -40,7 +44,7 @@ Creates an instance of a Node
 
 #### Defined in
 
-[linked-list/linked-list-node.ts:37](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list-node.ts#L37)
+[linked-list/linked-list-node.ts:39](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list-node.ts#L39)
 
 ## Properties
 
@@ -54,9 +58,13 @@ the reference to the next node in the linked list
 
 LinkedListNode
 
+#### Implementation of
+
+`LinkedListNodeInterface.next`
+
 #### Defined in
 
-[linked-list/linked-list-node.ts:30](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list-node.ts#L30)
+[linked-list/linked-list-node.ts:32](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list-node.ts#L32)
 
 ***
 
@@ -70,9 +78,13 @@ the value stored in the node
 
 LinkedListNode
 
+#### Implementation of
+
+`LinkedListNodeInterface.value`
+
 #### Defined in
 
-[linked-list/linked-list-node.ts:21](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list-node.ts#L21)
+[linked-list/linked-list-node.ts:23](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list-node.ts#L23)
 
 ## Methods
 
@@ -99,9 +111,13 @@ console.log(nextlinkedListNode) // null
 
 ```
 
+#### Implementation of
+
+`LinkedListNodeInterface.getNext`
+
 #### Defined in
 
-[linked-list/linked-list-node.ts:76](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list-node.ts#L76)
+[linked-list/linked-list-node.ts:78](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list-node.ts#L78)
 
 ***
 
@@ -128,9 +144,13 @@ console.log(value) // 1
 
 ```
 
+#### Implementation of
+
+`LinkedListNodeInterface.getValue`
+
 #### Defined in
 
-[linked-list/linked-list-node.ts:56](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list-node.ts#L56)
+[linked-list/linked-list-node.ts:58](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list-node.ts#L58)
 
 ***
 
@@ -142,9 +162,13 @@ console.log(value) // 1
 
 `boolean`
 
+#### Implementation of
+
+`LinkedListNodeInterface.isNext`
+
 #### Defined in
 
-[linked-list/linked-list-node.ts:85](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list-node.ts#L85)
+[linked-list/linked-list-node.ts:87](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list-node.ts#L87)
 
 ***
 
@@ -173,6 +197,10 @@ newNode.setNext(2)
 newNode.getNext() // Outputs: 2
 ```
 
+#### Implementation of
+
+`LinkedListNodeInterface.setNext`
+
 #### Defined in
 
-[linked-list/linked-list-node.ts:104](https://github.com/jun-young1993/data-structure/blob/94f7927410d3edf0e44ac2fae56bfdc42f8eed39/src/linked-list/linked-list-node.ts#L104)
+[linked-list/linked-list-node.ts:106](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/linked-list/linked-list-node.ts#L106)
