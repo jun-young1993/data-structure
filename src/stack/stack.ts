@@ -18,6 +18,16 @@ class Stack<T> implements StackInterface<T>{
     private list: LinkedList<T> = new LinkedList<T>()
 
     /**
+     * 
+     * @returns 
+     */
+    public getList(): LinkedList<T>
+    {
+        return this.list
+    }
+
+
+    /**
      * Removes all elements from the stack.
      *
      * This method clears the stack, resetting its size to zero

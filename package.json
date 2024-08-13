@@ -1,6 +1,6 @@
 {
   "name": "node-data-structure",
-  "version": "1.4.6",
+  "version": "1.5.6",
   "type": "module",
   "files": [
     "dist"
@@ -20,7 +20,8 @@
     }
   },
   "scripts": {
-    "test": "jest --coverage --verbose",
+    "test": "jest --verbose",
+    "test:cov": "jest --coverage",
     "build": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "docs": "typedoc src/*"
   },

@@ -14,6 +14,14 @@ class Queue<T> {
      */
     private list: LinkedList<T> = new LinkedList<T>()
 
+    /**
+     * 
+     * @returns 
+     */
+    public getList(): LinkedList<T>
+    {
+        return this.list
+    }
 
     /**
      * Enqueue a new element at the end of the queue

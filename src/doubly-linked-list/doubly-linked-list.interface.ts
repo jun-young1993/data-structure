@@ -1,4 +1,4 @@
-import { LinkedListInterface, LinkedListNodeInterface} from "linked-list/linked-list.interface"
+
 
 
 /**

@@ -1,37 +1,36 @@
-import { DoublyLinkedListNodeInterface } from "./doubly-linked-list.interface";
 
 /**
  * Represents a node in a doubly linked list, extending a singly linked list node.
  * 
  * @template T - The type of the value stored in the node
  */
-class DoublyLinkedListNode<T> implements DoublyLinkedListNodeInterface<T> {
+class DoublyLinkedListNode<T> {
     /**
      * the value stored in the node
      *
-     * @private
+     * @public
      * @type {T}
      * @memberof DoublyLinkedListNode
      */
-    private value: T
+    public value: T
 
     /**
      * The reference to the previous node in the doubly linked list
      *
      * 
-     * @private
-     * @type {(DoublyLinkedListNodeInterface<T> | null)}
+     * @public
+     * @type {(DoublyLinkedListNode<T> | null)}
      */
-    private prev: DoublyLinkedListNodeInterface<T> | null = null;
+    public prev: DoublyLinkedListNode<T> | null = null;
 
     /**
      * The reference to the next node in the doubly linked list
      *
-     * @private
-     * @type {(DoublyLinkedListNodeInterface<T> | null)}
+     * @public
+     * @type {(DoublyLinkedListNode<T> | null)}
      * @memberof DoublyLinkedListNode
      */
-    private next: DoublyLinkedListNodeInterface<T> | null = null;
+    public next: DoublyLinkedListNode<T> | null = null;
 
     /**
      * Creates an instance of a DoublyLinkedListNode
@@ -61,9 +60,9 @@ class DoublyLinkedListNode<T> implements DoublyLinkedListNodeInterface<T> {
      * Returns the previous node in the doubly linked list.
      * 
      * @public
-     * @returns {(DoublyLinkedListNodeInterface<T> | null)} The previous node or `null` if there is none
+     * @returns {(DoublyLinkedListNode<T> | null)} The previous node or `null` if there is none
      */
-    public getPrev(): DoublyLinkedListNodeInterface<T> | null {
+    public getPrev(): DoublyLinkedListNode<T> | null {
         return this.prev
     }
 
@@ -71,9 +70,9 @@ class DoublyLinkedListNode<T> implements DoublyLinkedListNodeInterface<T> {
      * Returns the Next node inthe doubly linked list
      * 
      * @public
-     * @returns {(DoublyLinkedListNodeInterface<T> | null)} The previous node or `null` if there is none
+     * @returns {(DoublyLinkedListNode<T> | null)} The previous node or `null` if there is none
      */
-    public getNext(): DoublyLinkedListNodeInterface<T> | null {
+    public getNext(): DoublyLinkedListNode<T> | null {
         return this.next
     }
 
@@ -101,10 +100,10 @@ class DoublyLinkedListNode<T> implements DoublyLinkedListNodeInterface<T> {
      * Sets the previous node in the doubly linked list.
      * 
      * @public
-     * @param {DoublyLinkedListNodeInterface<T>} node - The node to set as previous
-     * @returns {DoublyLinkedListNodeInterface<T>} The newly set previous node
+     * @param {DoublyLinkedListNode<T>} node - The node to set as previous
+     * @returns {DoublyLinkedListNode<T>} The newly set previous node
      */
-    public setPrev(node: DoublyLinkedListNodeInterface<T>): DoublyLinkedListNodeInterface<T> {
+    public setPrev(node: DoublyLinkedListNode<T>): DoublyLinkedListNode<T> {
         this.prev = node;
         return this.prev;
     }
@@ -113,10 +112,10 @@ class DoublyLinkedListNode<T> implements DoublyLinkedListNodeInterface<T> {
      * Sets the next node in the doubly linked list.
      * 
      * @public
-     * @param {DoublyLinkedListNodeInterface<T>} node - The node to set as next
-     * @returns {DoublyLinkedListNodeInterface<T>} The newly set next node
+     * @param {DoublyLinkedListNode<T>} node - The node to set as next
+     * @returns {DoublyLinkedListNode<T>} The newly set next node
      */
-    public setNext(node: DoublyLinkedListNodeInterface<T>): DoublyLinkedListNodeInterface<T> {
+    public setNext(node: DoublyLinkedListNode<T>): DoublyLinkedListNode<T> {
         this.next = node
         return this.next
     }

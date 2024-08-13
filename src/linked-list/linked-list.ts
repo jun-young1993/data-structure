@@ -21,6 +21,16 @@ class LinkedList<T> implements LinkedListInterface<T>{
 	private length: number = 0;
 
 	/**
+	 * The head of the linked list
+	 * 
+	 * @returns {(LinkedListNode<T> | null)} The head of the linked list
+	 */
+	public getHead():LinkedListNode<T> | null
+	{
+		return this.head
+	}
+
+	/**
 	 * 
 	 * Appends a new element to the end of the linked list.
 	 * 

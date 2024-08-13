@@ -1,5 +1,4 @@
 import { LinkedList } from "../../src";
-import {link} from "typedoc-plugin-markdown/dist/libs/markdown";
 
 describe('LinkedList', () => {
 	let linkedList: LinkedList<number>

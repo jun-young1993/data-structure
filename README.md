@@ -7,6 +7,7 @@
 # Features
 ## Primitive Data Structures
 - [x] Linked List
+- [x] Doubly Linked List
 - [x] Stack
 - [x] Queue
 - [ ] Hash Table
