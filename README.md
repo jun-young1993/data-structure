@@ -8,58 +8,51 @@
 ## Primitive Data Structures
 - [x] Linked List
 ```typescript
-	test("should correctly navigate through next nodes in the list",() => {
-		linkedList.append(10)
-		expect(linkedList.toArray()).toEqual([10])
-		linkedList.prepend(5)
-		expect(linkedList.toArray()).toEqual([5,10])
-		expect(linkedList.getHead()?.getValue()).toBe(5)
-		expect(linkedList.getHead()?.getNext()?.getValue()).toBe(10)
-	})
+	const linkedList = new LinkedList<number>()
+	linkedList.append(10)
+	linkedList.toArray() //Outputs: [10]
+	linkedList.prepend(5)
+	linkedList.toArray() // Outputs: [5,10]
+	linkedList.getHead()?.getValue() // Outputs: 5
+	linkedList.getHead()?.getNext()?.getValue() //Outputs: 10
 ```
 - [x] Doubly Linked List
 ```typescript
-    test("should correctly navigate through next and previous nodes in the list",() => {
-        doublyLinkedList.append(10)
-        expect(doublyLinkedList.toArray()).toEqual([10])
-        doublyLinkedList.prepend(5)
-        expect(doublyLinkedList.toArray()).toEqual([5,10])
-        doublyLinkedList.append(15)
-        expect(doublyLinkedList.toArray()).toEqual([5,10,15])
-        expect(doublyLinkedList.getHead()?.getNext()?.getValue()).toBe(10)
-        expect(doublyLinkedList.getHead()?.getNext()?.getPrev()?.getValue()).toBe(5)
-        expect(doublyLinkedList.getHead()?.getNext()?.getPrev()?.getNext()?.getNext()?.getValue()).toBe(15)
-    })
+	const doublyLinkedList = new DoublyLinkedList<number>()
+	doublyLinkedList.append(10)
+	doublyLinkedList.toArray() //Outputs: [10]
+	doublyLinkedList.prepend(5)
+	doublyLinkedList.toArray() //Outputs: [5,10]
+	doublyLinkedList.append(15)
+	doublyLinkedList.toArray() //Outputs: [5,10,15]
+	doublyLinkedList.getHead()?.getNext()?.getValue() //Outputs: 10
+	doublyLinkedList.getHead()?.getNext()?.getPrev()?.getValue() //Outputs: 5
+	doublyLinkedList.getHead()?.getNext()?.getPrev()?.getNext()?.getNext()?.getValue() //OutPuts: 15
 ```
 - [x] Stack
 ```typescript
-    test("should pop items from the stack", () => {
+	const stack = new Stack<number>()
         stack.push(10)
         stack.push(20)
         stack.push(30)
-        expect(stack.pop()).toBe(30)
-        expect(stack.size()).toBe(2)
-        expect(stack.isEmpty()).toBe(false)
-
-        expect(stack.pop()).toBe(20)
-        expect(stack.size()).toBe(1)
-        expect(stack.isEmpty()).toBe(false)
-
-        expect(stack.pop()).toBe(10)
-        expect(stack.size()).toBe(0)
-        expect(stack.isEmpty()).toBe(true)
-    })
+        stack.pop() //Outputs: 30
+        stack.size() //Outputs: 2
+        stack.isEmpty() //Outputs: true
+        stack.pop() //Outputs: 20
+        stack.size() //Outputs: 1
+        stack.isEmpty() //Outputs: true
+        stack.pop() //Outputs: 10
+        stack.size() //Outputs: 0
+        stack.isEmpty() //Outtpus: true
 ```
 - [x] Queue
 ```typescript
-    test("should dequeue items from the queue",() => {
-        queue.enqueue(10)
-        queue.enqueue(20)
-        expect(queue.dequeue()).toBe(10)
-        expect(queue.size()).toBe(1)
-        expect(queue.dequeue()).toBe(20)
-        expect(queue.size()).toBe(0)
-    })
+	queue.enqueue(10)
+	queue.enqueue(20)
+	queue.dequeue() //Outputs: 10
+	queue.size() //Outputs: 1
+	queue.dequeue() //Outputs: 20
+	queue.size() //Outputs: 0
 ```
 - [ ] Hash Table
 ## Tree
