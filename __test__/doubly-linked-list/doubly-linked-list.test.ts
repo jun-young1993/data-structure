@@ -28,6 +28,18 @@ describe("DoublyLinkedList", () => {
         expect(doublyLinkedList.toArray()).toEqual([5, 10]);
     });
 
+    test("should correctly navigate through next and previous nodes in the list",() => {
+        doublyLinkedList.append(10)
+        expect(doublyLinkedList.toArray()).toEqual([10])
+        doublyLinkedList.prepend(5)
+        expect(doublyLinkedList.toArray()).toEqual([5,10])
+        doublyLinkedList.append(15)
+        expect(doublyLinkedList.toArray()).toEqual([5,10,15])
+        expect(doublyLinkedList.getHead()?.getNext()?.getValue()).toBe(10)
+        expect(doublyLinkedList.getHead()?.getNext()?.getPrev()?.getValue()).toBe(5)
+        expect(doublyLinkedList.getHead()?.getNext()?.getPrev()?.getNext()?.getNext()?.getValue()).toBe(15)
+    })
+
     test("should remove elements from the list", () => {
         doublyLinkedList.append(10);
         doublyLinkedList.append(20);

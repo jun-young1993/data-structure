@@ -121,5 +121,14 @@ describe('LinkedList', () => {
 		expect(linkedList.isEmpty()).toBe(true)
 	})
 
+	test("should correctly navigate through next nodes in the list",() => {
+		linkedList.append(10)
+		expect(linkedList.toArray()).toEqual([10])
+		linkedList.prepend(5)
+		expect(linkedList.toArray()).toEqual([5,10])
+		expect(linkedList.getHead()?.getValue()).toBe(5)
+		expect(linkedList.getHead()?.getNext()?.getValue()).toBe(10)
+	})
+
 
 })
