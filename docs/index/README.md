@@ -10,8 +10,6 @@
 
 ### Classes
 
-- [DoublyLinkedList](classes/DoublyLinkedList.md)
-- [DoublyLinkedListNode](classes/DoublyLinkedListNode.md)
 - [LinkedList](classes/LinkedList.md)
 - [LinkedListNode](classes/LinkedListNode.md)
 - [Queue](classes/Queue.md)
@@ -20,3 +18,21 @@
 ### Interfaces
 
 - [StackInterface](interfaces/StackInterface.md)
+
+## References
+
+### Deque
+
+Re-exports [Deque](../deque/classes/Deque.md)
+
+***
+
+### DoublyLinkedList
+
+Re-exports [DoublyLinkedList](../doubly-linked-list/classes/DoublyLinkedList.md)
+
+***
+
+### DoublyLinkedListNode
+
+Re-exports [DoublyLinkedListNode](../doubly-linked-list/classes/DoublyLinkedListNode.md)

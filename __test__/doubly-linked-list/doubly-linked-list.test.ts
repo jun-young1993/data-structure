@@ -54,6 +54,21 @@ describe("DoublyLinkedList", () => {
         expect(doublyLinkedList.toArray()).toEqual([10, 30]);
     });
 
+    test("should remove elements from the list2", () => {
+        doublyLinkedList.append(10);
+        doublyLinkedList.append(20);
+        doublyLinkedList.append(30);
+
+        expect(doublyLinkedList.remove(10)).toBe(true);
+        expect(doublyLinkedList.toArray()).toEqual([20, 30]);
+
+        expect(doublyLinkedList.remove(20)).toBe(true);
+        expect(doublyLinkedList.toArray()).toEqual([30]);
+
+        expect(doublyLinkedList.remove(30)).toBe(true);
+        expect(doublyLinkedList.toArray()).toEqual([]);
+    });
+
     test("should retrieve elements by index", () => {
         doublyLinkedList.append(10);
         doublyLinkedList.append(20);

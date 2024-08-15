@@ -61,7 +61,7 @@ console.log(stack.size()) // Outputs: 0
 
 #### Defined in
 
-[stack/stack.ts:44](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.ts#L44)
+[stack/stack.ts:44](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.ts#L44)
 
 ***
 
@@ -75,7 +75,7 @@ console.log(stack.size()) // Outputs: 0
 
 #### Defined in
 
-[stack/stack.ts:24](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.ts#L24)
+[stack/stack.ts:24](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.ts#L24)
 
 ***
 
@@ -109,7 +109,7 @@ console.log(stack.isEmpty()) // Outputs: true
 
 #### Defined in
 
-[stack/stack.ts:64](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.ts#L64)
+[stack/stack.ts:64](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.ts#L64)
 
 ***
 
@@ -140,7 +140,7 @@ console.log(stack.peek()); // Outputs: 20
 
 #### Defined in
 
-[stack/stack.ts:79](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.ts#L79)
+[stack/stack.ts:79](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.ts#L79)
 
 ***
 
@@ -171,7 +171,7 @@ console.log(stack.pop()); // Outputs: undefined
 
 #### Defined in
 
-[stack/stack.ts:95](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.ts#L95)
+[stack/stack.ts:95](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.ts#L95)
 
 ***
 
@@ -197,7 +197,7 @@ The element to push onto the stack
 
 #### Defined in
 
-[stack/stack.ts:109](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.ts#L109)
+[stack/stack.ts:109](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.ts#L109)
 
 ***
 
@@ -228,4 +228,4 @@ console.log(stack.size()) // Outputs: 2
 
 #### Defined in
 
-[stack/stack.ts:126](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.ts#L126)
+[stack/stack.ts:126](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.ts#L126)

@@ -2,7 +2,7 @@
 
 ***
 
-[node-data-structure](../../modules.md) / [index](../README.md) / DoublyLinkedList
+[node-data-structure](../../modules.md) / [doubly-linked-list](../README.md) / DoublyLinkedList
 
 # Class: DoublyLinkedList\<T\>
 
@@ -64,7 +64,7 @@ console.log(list.toArray()) // Outputs: [10]
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list.ts:74](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/doubly-linked-list/doubly-linked-list.ts#L74)
+[doubly-linked-list/doubly-linked-list.ts:74](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list.ts#L74)
 
 ***
 
@@ -91,7 +91,7 @@ console.log(list.isEmpty()) // Outputs: true
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list.ts:262](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/doubly-linked-list/doubly-linked-list.ts#L262)
+[doubly-linked-list/doubly-linked-list.ts:269](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list.ts#L269)
 
 ***
 
@@ -129,7 +129,7 @@ console.log(list.get(5)); // Outputs: null
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list.ts:166](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/doubly-linked-list/doubly-linked-list.ts#L166)
+[doubly-linked-list/doubly-linked-list.ts:173](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list.ts#L173)
 
 ***
 
@@ -145,7 +145,7 @@ The head of the linked list
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list.ts:48](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/doubly-linked-list/doubly-linked-list.ts#L48)
+[doubly-linked-list/doubly-linked-list.ts:48](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list.ts#L48)
 
 ***
 
@@ -161,7 +161,7 @@ The tail of the linked list
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list.ts:57](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/doubly-linked-list/doubly-linked-list.ts#L57)
+[doubly-linked-list/doubly-linked-list.ts:57](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list.ts#L57)
 
 ***
 
@@ -188,7 +188,7 @@ console.log(list.isEmpty()); // Outputs: false
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list.ts:217](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/doubly-linked-list/doubly-linked-list.ts#L217)
+[doubly-linked-list/doubly-linked-list.ts:224](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list.ts#L224)
 
 ***
 
@@ -208,7 +208,7 @@ Prepends a new element to the start of the linked list
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list.ts:93](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/doubly-linked-list/doubly-linked-list.ts#L93)
+[doubly-linked-list/doubly-linked-list.ts:93](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list.ts#L93)
 
 ***
 
@@ -236,12 +236,12 @@ The value to be removed from the list
 const list = new DoublyLinkedList<number>();
 list.append(10);
 list.remove(10);
-console.log(list.size()); // Outputs: 0
+list.size(); // Outputs: 0
 ```
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list.ts:122](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/doubly-linked-list/doubly-linked-list.ts#L122)
+[doubly-linked-list/doubly-linked-list.ts:122](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list.ts#L122)
 
 ***
 
@@ -268,7 +268,7 @@ console.log(list.size()); // Outputs: 2
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list.ts:199](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/doubly-linked-list/doubly-linked-list.ts#L199)
+[doubly-linked-list/doubly-linked-list.ts:206](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list.ts#L206)
 
 ***
 
@@ -296,4 +296,4 @@ console.log(list.toArray()); // 출력 결과: [10, 20, 30]
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list.ts:236](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/doubly-linked-list/doubly-linked-list.ts#L236)
+[doubly-linked-list/doubly-linked-list.ts:243](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list.ts#L243)

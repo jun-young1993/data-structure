@@ -6,6 +6,7 @@
 
 ## Modules
 
+- [deque](deque/README.md)
 - [doubly-linked-list](doubly-linked-list/README.md)
 - [index](index/README.md)
 - [linked-list](linked-list/README.md)

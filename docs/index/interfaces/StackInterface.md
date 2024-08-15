@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[stack/stack.interface.ts:7](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.interface.ts#L7)
+[stack/stack.interface.ts:7](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.interface.ts#L7)
 
 ***
 
@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[stack/stack.interface.ts:5](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.interface.ts#L5)
+[stack/stack.interface.ts:5](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.interface.ts#L5)
 
 ***
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[stack/stack.interface.ts:4](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.interface.ts#L4)
+[stack/stack.interface.ts:4](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.interface.ts#L4)
 
 ***
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[stack/stack.interface.ts:3](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.interface.ts#L3)
+[stack/stack.interface.ts:3](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.interface.ts#L3)
 
 ***
 
@@ -82,7 +82,7 @@
 
 #### Defined in
 
-[stack/stack.interface.ts:2](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.interface.ts#L2)
+[stack/stack.interface.ts:2](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.interface.ts#L2)
 
 ***
 
@@ -96,4 +96,4 @@
 
 #### Defined in
 
-[stack/stack.interface.ts:6](https://github.com/jun-young1993/data-structure/blob/2668228c90ac92cf2ab348e0eddda1f2910f549d/src/stack/stack.interface.ts#L6)
+[stack/stack.interface.ts:6](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/stack/stack.interface.ts#L6)

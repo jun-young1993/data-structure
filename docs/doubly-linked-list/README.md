@@ -6,14 +6,9 @@
 
 # doubly-linked-list
 
-## References
+## Index
 
-### DoublyLinkedList
+### Classes
 
-Re-exports [DoublyLinkedList](../index/classes/DoublyLinkedList.md)
-
-***
-
-### DoublyLinkedListNode
-
-Re-exports [DoublyLinkedListNode](../index/classes/DoublyLinkedListNode.md)
+- [DoublyLinkedList](classes/DoublyLinkedList.md)
+- [DoublyLinkedListNode](classes/DoublyLinkedListNode.md)

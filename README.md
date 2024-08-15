@@ -101,7 +101,12 @@
 - [ ] Disjoint Set, Union-Find
 - [ ] Deque, Double-ended Queue
 ```typescript
-
+    const deque = new Deque<number>()
+    deque.addFront(10)
+    deque.addBack(20)
+    console.log(deque.size()) //Outputs:2
+    console.log(deque.peekFront()) // Outputs: 10
+    console.log(deque.peekBack()) // Outputs: 20
 ```
 - [ ] Linear List
 - [ ] Circular Queue

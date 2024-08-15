@@ -116,35 +116,42 @@ class DoublyLinkedList<T>{
 	 * const list = new DoublyLinkedList<number>();
 	 * list.append(10);
 	 * list.remove(10);
-	 * console.log(list.size()); // Outputs: 0
+	 * list.size(); // Outputs: 0
 	 * ```
 	 */
 	public remove(value: T): boolean {
 	    if (!this.head) return false;
     
 	    let current:DoublyLinkedListNode<T> | null = this.head
-    
+
 	    while (current) {
-		if (current.value === value) {
-		    if (current.prev && current.next) {
-			current.prev.setNext(current.next);
-		    } else {
-			this.head = current.next
-		    }
-    
-		    if (current.next && current.prev) {
-			current.next.setPrev(current.prev);
-		    } else {
-			this.tail = current.prev
-		    }
-    
-		    this.length--;
-		    return true;
-		}
+			if (current.value === value) {
+				if(current === this.head){
+					this.head = current.next
+					if(this.head){
+						this.head.prev = null
+					}
+				}else if(current === this.tail){
+					this.tail = current.prev
+				}else {
+					const prevNode = current.prev
+					const nextNode = current.next
+					if (prevNode) {
+						prevNode.next = nextNode
+					}
+					if (nextNode) {
+						nextNode.prev = prevNode
+					}
+
+				}
+				this.length--;
+				return true;
+			}
 		
-		current = current.next
+			current = current.next
 	    }
-    
+
+
 	    return false;
 	}
 

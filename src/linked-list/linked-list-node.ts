@@ -12,7 +12,7 @@ import { LinkedListNodeInterface } from "./linked-list.interface";
  * 	
  * ```
  */
-class LinkedListNode<T> implements LinkedListNodeInterface<T>{
+class LinkedListNode<T> {
 	/**
 	 * the value stored in the node
 	 *
