@@ -91,7 +91,7 @@
 - [ ] Trie
 - [ ] Fibonacci heap
 - [ ] Disjoint Set, Union-Find
-- [ ] Deque, Double-ended Queue
+- [x] Deque, Double-ended Queue
 ```typescript
     const deque = new Deque<number>()
     deque.addFront(10)
