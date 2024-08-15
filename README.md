@@ -1,29 +1,21 @@
 # data-structure
 
 # [BLOG DOCS](https://juny.blog/repository-markdown-viewer/data-structure/docs/index/README.md) Or [GithubDocs](https://github.com/jun-young1993/data-structure/tree/main/docs)
-
 # [TEST CODE](https://github.com/jun-young1993/data-structure/tree/main/__test__)
 
-![npm](https://img.shields.io/npm/dm/node-data-structure)  
-![npm](https://img.shields.io/npm/dt/node-data-structure)  
+![npm](https://img.shields.io/npm/dm/node-data-structure)
+![npm](https://img.shields.io/npm/dt/node-data-structure)
 ![npm](https://img.shields.io/npm/dw/node-data-structure)
-
-![npm](https://img.shields.io/npm/v/node-data-structure)  
+![npm](https://img.shields.io/npm/v/node-data-structure)
 ![npm (tag)](https://img.shields.io/npm/v/node-data-structure/latest)
-
 ![NPM](https://img.shields.io/npm/l/node-data-structure)
-
-![npm package size](https://img.shields.io/bundlephobia/min/node-data-structure)  
-
+![npm package size](https://img.shields.io/bundlephobia/min/node-data-structure)
 ![npm package size (gzip)](https://img.shields.io/bundlephobia/minzip/node-data-structure)
-
 ![ESLint](https://img.shields.io/badge/code%20style-eslint-brightgreen)
-
 ![GitHub contributors](https://img.shields.io/github/contributors/jun-young1993/data-structure)  
 ![GitHub stars](https://img.shields.io/github/stars/jun-young1993/data-structure)  
 ![GitHub issues](https://img.shields.io/github/issues/jun-young1993/data-structure)  
 ![GitHub last commit](https://img.shields.io/github/last-commit/jun-young1993/data-structure)
-
 ![GitHub top language](https://img.shields.io/github/languages/top/jun-young1993/data-structure)  
 ![GitHub language count](https://img.shields.io/github/languages/count/jun-young1993/data-structure)
 
@@ -114,6 +106,8 @@
 
 
 # Versions
+## 1.6.9
+- Deque
 ## v1.5.6
 - Doubly Linked List
 ---
