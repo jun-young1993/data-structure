@@ -87,4 +87,35 @@ describe('HashTable', () => {
 
         expect(hashTable.size()).toBe(0);
     });
+
+    test('should handle multiple keys when the HashTable size is 1', () => {
+        const hashTable = new HashTable<number>(1); // 크기를 1로 설정
+
+        // 여러 키-값 쌍 추가 (모두 동일한 버킷에 저장됨)
+        hashTable.put('key1', 100);
+        hashTable.put('key2', 200);
+        hashTable.put('key3', 300);
+
+        // 각 키에 대해 올바른 값을 반환하는지 확인
+        expect(hashTable.get('key1')).toBe(100);
+        expect(hashTable.get('key2')).toBe(200);
+        expect(hashTable.get('key3')).toBe(300);
+
+        // 크기가 3인지 확인
+        expect(hashTable.size()).toBe(3);
+
+        // 특정 키 삭제 후에도 다른 키에 영향을 미치지 않는지 확인
+        hashTable.remove('key2');
+        expect(hashTable.get('key2')).toBeNull();
+        expect(hashTable.get('key1')).toBe(100);
+        expect(hashTable.get('key3')).toBe(300);
+
+        hashTable.remove('key1');
+        expect(hashTable.get('key1')).toBeNull();
+        expect(hashTable.get('key3')).toBe(300);
+
+        hashTable.remove('key3');
+        expect(hashTable.get('key3')).toBeNull();
+        expect(hashTable.size()).toBe(0);
+    });
 });
