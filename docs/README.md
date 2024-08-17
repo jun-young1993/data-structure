@@ -5,29 +5,21 @@
 # data-structure
 
 # [BLOG DOCS](https://juny.blog/repository-markdown-viewer/data-structure/docs/index/README.md) Or [GithubDocs](https://github.com/jun-young1993/data-structure/tree/main/docs)
-
 # [TEST CODE](https://github.com/jun-young1993/data-structure/tree/main/__test__)
 
-![npm](https://img.shields.io/npm/dm/node-data-structure)  
-![npm](https://img.shields.io/npm/dt/node-data-structure)  
+![npm](https://img.shields.io/npm/dm/node-data-structure)
+![npm](https://img.shields.io/npm/dt/node-data-structure)
 ![npm](https://img.shields.io/npm/dw/node-data-structure)
-
-![npm](https://img.shields.io/npm/v/node-data-structure)  
+![npm](https://img.shields.io/npm/v/node-data-structure)
 ![npm (tag)](https://img.shields.io/npm/v/node-data-structure/latest)
-
 ![NPM](https://img.shields.io/npm/l/node-data-structure)
-
-![npm package size](https://img.shields.io/bundlephobia/min/node-data-structure)  
-
+![npm package size](https://img.shields.io/bundlephobia/min/node-data-structure)
 ![npm package size (gzip)](https://img.shields.io/bundlephobia/minzip/node-data-structure)
-
 ![ESLint](https://img.shields.io/badge/code%20style-eslint-brightgreen)
-
 ![GitHub contributors](https://img.shields.io/github/contributors/jun-young1993/data-structure)  
 ![GitHub stars](https://img.shields.io/github/stars/jun-young1993/data-structure)  
 ![GitHub issues](https://img.shields.io/github/issues/jun-young1993/data-structure)  
 ![GitHub last commit](https://img.shields.io/github/last-commit/jun-young1993/data-structure)
-
 ![GitHub top language](https://img.shields.io/github/languages/top/jun-young1993/data-structure)  
 ![GitHub language count](https://img.shields.io/github/languages/count/jun-young1993/data-structure)
 
@@ -81,7 +73,17 @@
 	queue.dequeue() //Outputs: 20
 	queue.size() //Outputs: 0
 ```
-- [ ] Hash Table
+- [x] Hash Table
+```typescript
+    const hashTable = new HashTable<number>();
+    hashTable.put("key1", 1);
+    hashTable.put("key2", 2);
+    hashTable.get("key1"); // Outputs: 1
+    hashTable.size(); // Outputs: 2
+    hashTable.remove("key1");
+    hashTable.get("key1"); // Outputs: null
+    hashTable.containsKey("key2"); // Outputs: true
+```
 ## Tree
 - [ ] Binary Tree
 - [ ] Binary Search Tree
@@ -102,7 +104,7 @@
 - [ ] Trie
 - [ ] Fibonacci heap
 - [ ] Disjoint Set, Union-Find
-- [ ] Deque, Double-ended Queue
+- [x] Deque, Double-ended Queue
 ```typescript
     const deque = new Deque<number>()
     deque.addFront(10)
@@ -115,6 +117,10 @@
 - [ ] Circular Queue
 
 # Versions
+## 1.7.11
+- HashTable
+## 1.6.9
+- Deque
 ## v1.5.6
 - Doubly Linked List
 ---

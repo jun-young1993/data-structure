@@ -22,6 +22,20 @@
 
 ## Methods
 
+### \[iterator\]()
+
+> **\[iterator\]**(): `linkedListIterator`\<`T`\>
+
+#### Returns
+
+`linkedListIterator`\<`T`\>
+
+#### Defined in
+
+[linked-list/linked-list.ts:5](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list.ts#L5)
+
+***
+
 ### append()
 
 > **append**(`value`): `void`
@@ -64,7 +78,7 @@ console.log(linkedList.size())// Outputs: 3
 
 #### Defined in
 
-[linked-list/linked-list.ts:61](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list.ts#L61)
+[linked-list/linked-list.ts:64](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list.ts#L64)
 
 ***
 
@@ -91,7 +105,7 @@ console.log(list.isEmpty()) // Outputs: true
 
 #### Defined in
 
-[linked-list/linked-list.ts:267](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list.ts#L267)
+[linked-list/linked-list.ts:271](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list.ts#L271)
 
 ***
 
@@ -128,7 +142,7 @@ console.log(list.get(5)); // Outputs: null
 
 #### Defined in
 
-[linked-list/linked-list.ts:134](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list.ts#L134)
+[linked-list/linked-list.ts:137](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list.ts#L137)
 
 ***
 
@@ -146,7 +160,7 @@ The head of the linked list
 
 #### Defined in
 
-[linked-list/linked-list.ts:28](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list.ts#L28)
+[linked-list/linked-list.ts:31](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list.ts#L31)
 
 ***
 
@@ -173,7 +187,7 @@ console.log(list.isEmpty()); // Outputs: false
 
 #### Defined in
 
-[linked-list/linked-list.ts:224](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list.ts#L224)
+[linked-list/linked-list.ts:227](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list.ts#L227)
 
 ***
 
@@ -218,7 +232,7 @@ console.log(linkedList.size())// Outputs: 3
 
 #### Defined in
 
-[linked-list/linked-list.ts:104](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list.ts#L104)
+[linked-list/linked-list.ts:107](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list.ts#L107)
 
 ***
 
@@ -254,7 +268,7 @@ console.log(list.remove(40)); // Outputs: false
 
 #### Defined in
 
-[linked-list/linked-list.ts:170](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list.ts#L170)
+[linked-list/linked-list.ts:173](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list.ts#L173)
 
 ***
 
@@ -281,7 +295,7 @@ console.log(list.size()); // Outputs: 1
 
 #### Defined in
 
-[linked-list/linked-list.ts:207](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list.ts#L207)
+[linked-list/linked-list.ts:210](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list.ts#L210)
 
 ***
 
@@ -309,4 +323,4 @@ console.log(list.toArray()); // 출력 결과: [10, 20, 30]
 
 #### Defined in
 
-[linked-list/linked-list.ts:243](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list.ts#L243)
+[linked-list/linked-list.ts:246](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list.ts#L246)

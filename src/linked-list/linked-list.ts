@@ -1,7 +1,10 @@
 import LinkedListNode from "./linked-list-node";
-import { LinkedListInterface } from "./linked-list.interface";
+import linkedListIterator from "./linked-list.iterator";
 
 class LinkedList<T> {
+	[Symbol.iterator](){
+		return new linkedListIterator(this.head)
+	}
 	/**
 	 * The first node in the linked list, or null if the list is empty
 	 *
@@ -243,6 +246,7 @@ class LinkedList<T> {
 	public toArray(): T[]
 	{
 		const result: T[] = []
+
 		let current = this.head
 		while(current){
 			result.push(current.value)

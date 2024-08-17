@@ -36,3 +36,15 @@ Re-exports [DoublyLinkedList](../doubly-linked-list/classes/DoublyLinkedList.md)
 ### DoublyLinkedListNode
 
 Re-exports [DoublyLinkedListNode](../doubly-linked-list/classes/DoublyLinkedListNode.md)
+
+***
+
+### HashTable
+
+Re-exports [HashTable](../hash-table/classes/HashTable.md)
+
+***
+
+### HashTableNode
+
+Re-exports [HashTableNode](../hash-table/classes/HashTableNode.md)

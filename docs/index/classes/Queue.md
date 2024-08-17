@@ -40,7 +40,7 @@ This method clears the queue, removing all elements and resetting its size to ze
 
 #### Defined in
 
-[queue/queue.ts:133](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/queue/queue.ts#L133)
+[queue/queue.ts:133](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/queue/queue.ts#L133)
 
 ***
 
@@ -69,7 +69,7 @@ console.log(queue.dequeue()) // Outputs: null
 
 #### Defined in
 
-[queue/queue.ts:63](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/queue/queue.ts#L63)
+[queue/queue.ts:63](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/queue/queue.ts#L63)
 
 ***
 
@@ -98,7 +98,7 @@ console.log(queue.size()) // Outputs: 2
 
 #### Defined in
 
-[queue/queue.ts:40](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/queue/queue.ts#L40)
+[queue/queue.ts:40](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/queue/queue.ts#L40)
 
 ***
 
@@ -112,7 +112,7 @@ console.log(queue.size()) // Outputs: 2
 
 #### Defined in
 
-[queue/queue.ts:21](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/queue/queue.ts#L21)
+[queue/queue.ts:21](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/queue/queue.ts#L21)
 
 ***
 
@@ -138,7 +138,7 @@ console.log(queue.isEmpty()); // Outputs: false
 
 #### Defined in
 
-[queue/queue.ts:105](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/queue/queue.ts#L105)
+[queue/queue.ts:105](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/queue/queue.ts#L105)
 
 ***
 
@@ -164,7 +164,7 @@ console.log(queue.size()); // Outputs: 2
 
 #### Defined in
 
-[queue/queue.ts:88](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/queue/queue.ts#L88)
+[queue/queue.ts:88](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/queue/queue.ts#L88)
 
 ***
 
@@ -191,4 +191,4 @@ console.log(queue.size()); // Outputs: 2
 
 #### Defined in
 
-[queue/queue.ts:123](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/queue/queue.ts#L123)
+[queue/queue.ts:123](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/queue/queue.ts#L123)

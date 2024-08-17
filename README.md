@@ -70,7 +70,17 @@
 	queue.dequeue() //Outputs: 20
 	queue.size() //Outputs: 0
 ```
-- [ ] Hash Table
+- [x] Hash Table
+```typescript
+    const hashTable = new HashTable<number>();
+    hashTable.put("key1", 1);
+    hashTable.put("key2", 2);
+    hashTable.get("key1"); // Outputs: 1
+    hashTable.size(); // Outputs: 2
+    hashTable.remove("key1");
+    hashTable.get("key1"); // Outputs: null
+    hashTable.containsKey("key2"); // Outputs: true
+```
 ## Tree
 - [ ] Binary Tree
 - [ ] Binary Search Tree
@@ -106,6 +116,8 @@
 
 
 # Versions
+## 1.7.11
+- HashTable
 ## 1.6.9
 - Deque
 ## v1.5.6

@@ -34,7 +34,7 @@ The value to be stored in the node
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list-node.ts:40](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list-node.ts#L40)
+[doubly-linked-list/doubly-linked-list-node.ts:40](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/doubly-linked-list/doubly-linked-list-node.ts#L40)
 
 ## Properties
 
@@ -50,7 +50,7 @@ DoublyLinkedListNode
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list-node.ts:33](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list-node.ts#L33)
+[doubly-linked-list/doubly-linked-list-node.ts:33](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/doubly-linked-list/doubly-linked-list-node.ts#L33)
 
 ***
 
@@ -62,7 +62,7 @@ The reference to the previous node in the doubly linked list
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list-node.ts:24](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list-node.ts#L24)
+[doubly-linked-list/doubly-linked-list-node.ts:24](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/doubly-linked-list/doubly-linked-list-node.ts#L24)
 
 ***
 
@@ -78,7 +78,7 @@ DoublyLinkedListNode
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list-node.ts:15](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list-node.ts#L15)
+[doubly-linked-list/doubly-linked-list-node.ts:15](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/doubly-linked-list/doubly-linked-list-node.ts#L15)
 
 ## Methods
 
@@ -96,7 +96,7 @@ The previous node or `null` if there is none
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list-node.ts:75](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list-node.ts#L75)
+[doubly-linked-list/doubly-linked-list-node.ts:75](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/doubly-linked-list/doubly-linked-list-node.ts#L75)
 
 ***
 
@@ -114,7 +114,7 @@ The previous node or `null` if there is none
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list-node.ts:65](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list-node.ts#L65)
+[doubly-linked-list/doubly-linked-list-node.ts:65](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/doubly-linked-list/doubly-linked-list-node.ts#L65)
 
 ***
 
@@ -139,7 +139,7 @@ console.log(doublyLinkedListNode.getValue()) / Outputs: 10
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list-node.ts:54](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list-node.ts#L54)
+[doubly-linked-list/doubly-linked-list-node.ts:54](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/doubly-linked-list/doubly-linked-list-node.ts#L54)
 
 ***
 
@@ -157,7 +157,7 @@ Checks if there is a next node.
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list-node.ts:95](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list-node.ts#L95)
+[doubly-linked-list/doubly-linked-list-node.ts:95](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/doubly-linked-list/doubly-linked-list-node.ts#L95)
 
 ***
 
@@ -175,7 +175,7 @@ Checks if there is a previous node.
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list-node.ts:85](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list-node.ts#L85)
+[doubly-linked-list/doubly-linked-list-node.ts:85](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/doubly-linked-list/doubly-linked-list-node.ts#L85)
 
 ***
 
@@ -199,7 +199,7 @@ The newly set next node
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list-node.ts:118](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list-node.ts#L118)
+[doubly-linked-list/doubly-linked-list-node.ts:118](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/doubly-linked-list/doubly-linked-list-node.ts#L118)
 
 ***
 
@@ -223,4 +223,4 @@ The newly set previous node
 
 #### Defined in
 
-[doubly-linked-list/doubly-linked-list-node.ts:106](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/doubly-linked-list/doubly-linked-list-node.ts#L106)
+[doubly-linked-list/doubly-linked-list-node.ts:106](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/doubly-linked-list/doubly-linked-list-node.ts#L106)

@@ -37,7 +37,7 @@ The type of elements in the deque
 
 #### Defined in
 
-[deque/deque.ts:19](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/deque/deque.ts#L19)
+[deque/deque.ts:19](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/deque/deque.ts#L19)
 
 ## Methods
 
@@ -69,7 +69,7 @@ deque.peekBack() // Outputs: 10
 
 #### Defined in
 
-[deque/deque.ts:56](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/deque/deque.ts#L56)
+[deque/deque.ts:56](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/deque/deque.ts#L56)
 
 ***
 
@@ -101,7 +101,7 @@ deque.peekBack() // Outputs: 10
 
 #### Defined in
 
-[deque/deque.ts:37](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/deque/deque.ts#L37)
+[deque/deque.ts:37](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/deque/deque.ts#L37)
 
 ***
 
@@ -134,7 +134,7 @@ deque.size() // Outputs: 2
 
 #### Defined in
 
-[deque/deque.ts:174](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/deque/deque.ts#L174)
+[deque/deque.ts:174](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/deque/deque.ts#L174)
 
 ***
 
@@ -162,7 +162,7 @@ deque.peekBack() // Outputs: 20
 
 #### Defined in
 
-[deque/deque.ts:130](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/deque/deque.ts#L130)
+[deque/deque.ts:130](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/deque/deque.ts#L130)
 
 ***
 
@@ -190,7 +190,7 @@ deque.peekFront() // Outputs: 20
 
 #### Defined in
 
-[deque/deque.ts:150](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/deque/deque.ts#L150)
+[deque/deque.ts:150](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/deque/deque.ts#L150)
 
 ***
 
@@ -220,7 +220,7 @@ deque.removeBack() // Outputs: null
 
 #### Defined in
 
-[deque/deque.ts:107](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/deque/deque.ts#L107)
+[deque/deque.ts:107](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/deque/deque.ts#L107)
 
 ***
 
@@ -252,7 +252,7 @@ deque.removeFront() // Outputs: null
 
 #### Defined in
 
-[deque/deque.ts:79](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/deque/deque.ts#L79)
+[deque/deque.ts:79](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/deque/deque.ts#L79)
 
 ***
 
@@ -281,7 +281,7 @@ deque.size() // Outputs: 2
 
 #### Defined in
 
-[deque/deque.ts:194](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/deque/deque.ts#L194)
+[deque/deque.ts:194](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/deque/deque.ts#L194)
 
 ***
 
@@ -295,4 +295,4 @@ deque.size() // Outputs: 2
 
 #### Defined in
 
-[deque/deque.ts:203](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/deque/deque.ts#L203)
+[deque/deque.ts:203](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/deque/deque.ts#L203)

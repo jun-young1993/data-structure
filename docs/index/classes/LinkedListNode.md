@@ -40,7 +40,7 @@ Creates an instance of a Node
 
 #### Defined in
 
-[linked-list/linked-list-node.ts:39](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list-node.ts#L39)
+[linked-list/linked-list-node.ts:39](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list-node.ts#L39)
 
 ## Properties
 
@@ -56,7 +56,7 @@ LinkedListNode
 
 #### Defined in
 
-[linked-list/linked-list-node.ts:32](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list-node.ts#L32)
+[linked-list/linked-list-node.ts:32](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list-node.ts#L32)
 
 ***
 
@@ -72,7 +72,7 @@ LinkedListNode
 
 #### Defined in
 
-[linked-list/linked-list-node.ts:23](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list-node.ts#L23)
+[linked-list/linked-list-node.ts:23](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list-node.ts#L23)
 
 ## Methods
 
@@ -101,7 +101,7 @@ console.log(nextlinkedListNode) // null
 
 #### Defined in
 
-[linked-list/linked-list-node.ts:78](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list-node.ts#L78)
+[linked-list/linked-list-node.ts:78](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list-node.ts#L78)
 
 ***
 
@@ -130,7 +130,7 @@ console.log(value) // 1
 
 #### Defined in
 
-[linked-list/linked-list-node.ts:58](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list-node.ts#L58)
+[linked-list/linked-list-node.ts:58](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list-node.ts#L58)
 
 ***
 
@@ -144,7 +144,7 @@ console.log(value) // 1
 
 #### Defined in
 
-[linked-list/linked-list-node.ts:87](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list-node.ts#L87)
+[linked-list/linked-list-node.ts:87](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list-node.ts#L87)
 
 ***
 
@@ -175,4 +175,4 @@ newNode.getNext() // Outputs: 2
 
 #### Defined in
 
-[linked-list/linked-list-node.ts:106](https://github.com/jun-young1993/data-structure/blob/390429224bd67d7bf107be068638a90c2f060f71/src/linked-list/linked-list-node.ts#L106)
+[linked-list/linked-list-node.ts:106](https://github.com/jun-young1993/data-structure/blob/aceac108cb0dab76587bb5b0477739cbebe8772b/src/linked-list/linked-list-node.ts#L106)
